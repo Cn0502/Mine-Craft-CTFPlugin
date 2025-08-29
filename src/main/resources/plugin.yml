@@ -1,0 +1,12 @@
+name: CTFPlugin
+version: '1.0-SNAPSHOT'
+main: com.azcwr.ctfplugin.CTFPlugin
+api-version: '1.21'
+commands:
+  restartctf:
+    description: Force reset the game state
+  jointeam:
+    description: Join a specific team
+    usage: /jointeam <red|blue>
+  forceround:
+    description: Force start a round (debug)
